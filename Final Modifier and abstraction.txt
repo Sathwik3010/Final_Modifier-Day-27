@@ -1,0 +1,44 @@
+Final is a modifier applicable for classes methods and variable 
+
+final variable
+--------------
+if the variable is declared as final then we can't reassign that variable.
+
+we can write instance final variable in 3 ways
+1. declaring final variable with initialization which is type 1 for instance final variable.
+2.inside the instance block for final variable.
+3.inside a constructor for final variable
+
+we can write static final variable in 2 ways
+1. declaring static final variable while initializationn which is type 1 for static final variable.
+2. inside the static block for static final variable
+
+methods
+--------
+if the method is declared as final we cannot override that method.
+
+class
+-------
+if the class id declared as final we cannot extend that class inheritance is not supported
+
+
+==============================================================================================
+
+abstract classes and abstract methods
+
+abstract modifier
+-----------------
+abstract is modifier applicable for method and classes but not for variables.
+
+abstract methods
+----------------
+even though we don't have implementation still we can declare a method with abstract modifier.
+that is abstract methods have only declaration but not implementation.
+hence abstract method declaration should compulsory ends with semicolon
+
+example
+-------
+public abstract void methodOne();====>valid.
+public abstract void methodTwo(){};====> invalid;
+
+we cannot create the object for the abstract classes because when we create we have to implement abstract classes
